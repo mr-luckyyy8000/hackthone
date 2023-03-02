@@ -28,7 +28,8 @@ button[type="submit"] {
   cursor: pointer;
 }
 nav {
-  background-color: palegreen;
+  background-color: rgba(152, 251, 152, 0);
+  padding: 10px;
 }
 ul {
   display: inline-block;
@@ -45,7 +46,7 @@ li {
   margin: 10px;
 }
 .logo {
-  margin: 10px;
+  margin: 12px;
 }
 .search {
   float: right;
@@ -120,4 +121,38 @@ li {
 }
 .FAQ {
   padding: 30px 100px;
+}
+.foot{
+  background-color: rgb(38, 3, 102);
+  color: #c8d8e9;
+  text-align: center;
+}
+.list{
+  margin: 20px;
+  border: 2px solid purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+a{
+  color: #c8d8e9;
+  text-decoration: none;
+}
+.foot-section{
+  padding: 20px;
+}
+.useful-links{
+  background-color: azure;
+  width: 120px;
+  height: 50px;
+}
+.last-update{
+  float: right;
+  margin-right: 20px;
+}
+.number-schemes{
+  color: rgb(64, 197, 64);
+  margin: 20px;
+}
+.heading{
+  font-size: 20px;
 }
