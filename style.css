@@ -1,0 +1,123 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  float: left;
+  text-align: left;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid green;
+  border-radius: 6px;
+  margin: 5px;
+  width: 400px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #c8d8e9;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+nav {
+  background-color: palegreen;
+}
+ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0px;
+}
+li {
+  float: left;
+}
+.search {
+  float: right;
+}
+.logo1 {
+  margin: 10px;
+}
+.logo {
+  margin: 10px;
+}
+.search {
+  float: right;
+}
+.mid {
+  margin: 20px;
+  text-align: center;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  height: 50px;
+  width: 50%;
+  font-size: x-large;
+  border: 1px solid aqua;
+  border-radius: 6px;
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slider-image.active {
+  opacity: 1;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 20px;
+}
+
+.next-button {
+  right: 20px;
+}
+.schemes {
+  text-align: center;
+}
+.schemes-card {
+  margin: 20px;
+  display: inline-block;
+}
+.about {
+  padding: 50px;
+  font-size: 20px;
+  background-color: rgb(214, 247, 236);
+}
+.about h2 {
+  color: green;
+}
+.FAQ {
+  padding: 30px 100px;
+}
