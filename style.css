@@ -68,7 +68,7 @@ li {
 .slider-container {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -156,3 +156,4 @@ a{
 .heading{
   font-size: 20px;
 }
+

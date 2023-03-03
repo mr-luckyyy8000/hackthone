@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container" id="blur">
+      <div class="content">
+        <h2>
+          mt,yuiyuyrtrjiuyrttyjulire4tyoluytrttghlkhg
+          gmytjymutrreruyudghjlytrgffjyr tymtuyk6fngtk8yygjhtywsrg.itrrgeiudfr
+          sdfghj dfghj fghjk dataaaaaaaaaaaaa..............
+        </h2>
+        <img src="doodle.jpg" alt="" />
+        <a href="#" onclick="toggle()">Read more</a>
+      </div>
+    </div>
+
+    <div id="popup">
+      <h2>Pradhan Mantri Kisan Samman Nidhi</h2>
+      <h4>Details</h4>
+      <br />
+      <h5>Objective</h5>
+      <p>
+        The scheme aims to supplement the financial needs of all landholding
+        farmers families in procuring various inputs to ensure proper crop
+        health and appropriate yields, commensurate with the anticipated farm
+        income as well as for domestic needs. Under the Scheme an amount of
+        Rs.6000/- per year is released by the Central Government online directly
+        into the bank accounts of the eligible farmers under Direct Benefit
+        Transfer mode, subject to certain exclusions.
+      </p>
+      <br />
+      <h5>Benefits and Eligibility conditions</h5>
+      <p>
+        1. All land holding eligible farmer families (subject to the prevalent
+        exclusion criteria) are to avail of the benefits under this scheme, as
+        per the cabinet decision taken in May 2019. The revised Scheme is
+        expected to cover around 2 crores more farmers, increasing the coverage
+        of PM-KISAN to around 14.5 crore beneficiaries.
+        <br />
+        2. Under the scheme, financial benefit has been provided to all Small
+        and Marginal landholder farmer families with total cultivable holding
+        upto 2 hectares with a benefit of Rs.6000 per annum per family payable
+        in three equal installments, every four months.
+      </p>
+      <a href="#" onclick="toggle()">close</a>
+      <a href="https://www.myscheme.gov.in/schemes/pm-kisan">Explore More</a>
+    </div>
+
+    <script type="text/javascript">
+      function toggle() {
+        var blur = document.getElementById("blur");
+        blur.classList.toggle("active");
+        var popup = document.getElementById("popup");
+        popup.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
