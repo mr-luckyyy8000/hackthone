@@ -15,7 +15,7 @@ input[type="text"] {
   border: 1px solid green;
   border-radius: 6px;
   margin: 5px;
-  width: 400px;
+  width: 200px;
 }
 
 button[type="submit"] {
@@ -122,38 +122,37 @@ li {
 .FAQ {
   padding: 30px 100px;
 }
-.foot{
+.foot {
   background-color: rgb(38, 3, 102);
   color: #c8d8e9;
   text-align: center;
 }
-.list{
+.list {
   margin: 20px;
   border: 2px solid purple;
   padding: 10px;
   border-radius: 10px;
 }
-a{
+a {
   color: #c8d8e9;
   text-decoration: none;
 }
-.foot-section{
+.foot-section {
   padding: 20px;
 }
-.useful-links{
+.useful-links {
   background-color: azure;
   width: 120px;
   height: 50px;
 }
-.last-update{
+.last-update {
   float: right;
   margin-right: 20px;
 }
-.number-schemes{
+.number-schemes {
   color: rgb(64, 197, 64);
   margin: 20px;
 }
-.heading{
+.heading {
   font-size: 20px;
 }
-
