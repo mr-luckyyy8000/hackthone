@@ -39,6 +39,7 @@ ul {
 }
 li {
   float: left;
+
 }
 .search {
   float: right;
@@ -49,9 +50,7 @@ li {
 .logo {
   margin: 12px;
 }
-.search {
-  float: right;
-}
+
 .mid {
   margin: 20px;
   text-align: center;
@@ -140,6 +139,10 @@ a {
 }
 .foot-section {
   padding: 20px;
+}
+.foot-section2 {
+  padding: 20px;
+  
 }
 .useful-links {
   background-color: azure;
