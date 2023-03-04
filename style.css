@@ -28,6 +28,11 @@ button[type="submit"] {
   border-radius: 6px;
   cursor: pointer;
 }
+.qa {
+  border: 2px solid rgb(142, 139, 139);
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgb(92, 1, 92);
+}
 nav {
   background-color: rgba(152, 251, 152, 0);
   padding: 10px;
@@ -39,7 +44,6 @@ ul {
 }
 li {
   float: left;
-
 }
 .search {
   float: right;
@@ -142,7 +146,6 @@ a {
 }
 .foot-section2 {
   padding: 20px;
-  
 }
 .useful-links {
   background-color: azure;
